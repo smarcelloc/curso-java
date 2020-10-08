@@ -4,6 +4,8 @@ package app;
  * @author Marcello mar***@***.com
  * @version 2.0
  * @since 1.0
+ * 
+ * @see {@value}
  */
 public class Comments {
 
@@ -32,10 +34,12 @@ public class Comments {
     }
 
     /**
-     * @return the nome
+     * Pegar o nome do usuário
+     * 
+     * @return retorna o nome
      */
     public String getNome() {
-        return nome;
+        return this.nome;
     }
 
     /**
