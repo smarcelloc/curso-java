@@ -41,16 +41,17 @@ public class Variavel {
         String nome = "MARCELLO";
         System.out.println("Palavra: MARCELLO " + nome.length() * 2 + " Byte(s)");
 
-        // Consumo de memória da Minha Aplicação
-        // System.out.println("MiNHA Aplicação Consome de memória: ");
-        // Runtime runtime = Runtime.getRuntime();
-        // System.out.println("Memória Livre: " + runtime.freeMemory());
-        // System.out.println("max Memória: " + runtime.maxMemory());
-        // Long memoriaConsumida = runtime.maxMemory() - runtime.freeMemory();
-        // System.out.println("Memória Consumida: " + memoriaConsumida);
-
-        // System.out.println("Nº de processo: " + runtime.availableProcessors());
-
-        // System.out.println("Char:" + instanceof char);
     }
+
+    // Consumo de memória da Minha Aplicação
+    // System.out.println("MiNHA Aplicação Consome de memória: ");
+    // Runtime runtime = Runtime.getRuntime();
+    // System.out.println("Memória Livre: " + runtime.freeMemory());
+    // System.out.println("max Memória: " + runtime.maxMemory());
+    // Long memoriaConsumida = runtime.maxMemory() - runtime.freeMemory();
+    // System.out.println("Memória Consumida: " + memoriaConsumida);
+
+    // System.out.println("Nº de processo: " + runtime.availableProcessors());
+
+    // System.out.println("Char:" + instanceof char);
 }
