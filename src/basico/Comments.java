@@ -1,4 +1,4 @@
-package app;
+package basico;
 
 /**
  * @author Marcello mar***@***.com
@@ -49,7 +49,7 @@ public class Comments {
      * @param nome nome da pessoa
      * @return true / false
      */
-    public Boolean titulo(String nome) {
+    public Boolean titulo() {
         try {
             this.nome = nome;
             return true;

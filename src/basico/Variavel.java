@@ -1,7 +1,7 @@
-package app;
+package basico;
 
 public class Variavel {
-    public static void main(String[] args) {
+    public static void run() {
         // Tipos Primitivos
         // Inteiros
         int v_int = 12000000;

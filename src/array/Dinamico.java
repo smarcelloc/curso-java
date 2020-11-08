@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Dinamico {
 
-  public static void main(String[] args) {
+  public static void run() {
     ArrayList<String> nomes = new ArrayList<String>();
     ArrayList<String> nomes02 = new ArrayList<String>();
     ArrayList<String> nomes03 = new ArrayList<String>();

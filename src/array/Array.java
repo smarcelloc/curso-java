@@ -1,7 +1,7 @@
 package array;
 
 public class Array {
-    public static void main(String[] args) {
+    public static void run() {
         // teste01();
         declaracaoArray();
     }

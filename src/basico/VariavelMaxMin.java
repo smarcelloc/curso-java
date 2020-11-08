@@ -1,7 +1,6 @@
-package app;
-
+package basico;
 public class VariavelMaxMin {
-    public static void main(String[] args) {
+    public static void run() {
 
          System.out.println("Tipos de dados em Java: \n" +
 	            "\nMenor Byte: " + Byte.MIN_VALUE +

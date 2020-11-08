@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class Stream {
 
-  public static void main(String[] args) {
+  public static void run() {
     List<Pessoa> pessoas = Arrays.asList(new Pessoa("Marcello", 20), new Pessoa("Vanessa", 30),
         new Pessoa("Ricardo", 60));
 

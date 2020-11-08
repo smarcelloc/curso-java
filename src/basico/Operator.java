@@ -1,8 +1,8 @@
-package app;
+package basico;
 
 public class Operator {
 
-    public static void main(String[] args) {
+    public static void run() {
         // bitwise_shift();
         operadorDeBinario();
     }
