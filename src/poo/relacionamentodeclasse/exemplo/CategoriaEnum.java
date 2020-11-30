@@ -1,4 +1,4 @@
-package poo.relacionamentodeclasse;
+package poo.relacionamentodeclasse.exemplo;
 
 public enum CategoriaEnum {
   LEVE("Leve"), MEDIO("Médio"), PESADO("Pesado");

@@ -1,4 +1,4 @@
-package poo.relacionamentodeclasse;
+package poo.relacionamentodeclasse.exemplo;
 
 public interface LutadorInterface {
   public abstract void apresentar();

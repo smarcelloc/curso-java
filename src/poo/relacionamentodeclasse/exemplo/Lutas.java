@@ -1,4 +1,4 @@
-package poo.relacionamentodeclasse;
+package poo.relacionamentodeclasse.exemplo;
 
 import java.util.Random;
 

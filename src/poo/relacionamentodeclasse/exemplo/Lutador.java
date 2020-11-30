@@ -1,4 +1,4 @@
-package poo.relacionamentodeclasse;
+package poo.relacionamentodeclasse.exemplo;
 
 public class Lutador implements LutadorInterface {
   private String nome;
