@@ -10,8 +10,8 @@ public class Teste {
     // caneta.cor = "BIC" // private ERRO
     //caneta.carga = 12; // protected ERRO
     //caneta.ponta = 21f; // protected ERRO
-    caneta.tampada = true; // public
-    caneta.rabiscar("OK"); // public
+    //caneta.tampada = true; // public
+    //caneta.rabiscar("OK"); // public
     //caneta.desenhar(); // protected ERRO
     // caneta.pintar(); // private ERRO
   }

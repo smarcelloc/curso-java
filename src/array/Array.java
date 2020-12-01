@@ -1,6 +1,8 @@
 package array;
 
 public class Array {
+    private static String ds = "sdas";
+
     public static void run() {
         // teste01();
         declaracaoArray();
