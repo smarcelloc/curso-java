@@ -1,8 +1,9 @@
 package basico;
 
 public class Variavel {
-    public static void run() {
-        // Tipos Primitivos
+    
+    public void tiposPrimitivos(){
+        
         // Inteiros
         int v_int = 12000000;
         short v_short = 10323;
@@ -18,9 +19,9 @@ public class Variavel {
 
         // Lógico
         boolean v_boolean = true;
-
-        // --------------------------------------------------------------------
-        // Tipos Referenciais
+    }
+    
+    public void tiposReferenciais(){
         Integer vr_integer = 122;
         Long vr_long = 29322L;
         Short vr_short = 12002;
@@ -33,25 +34,47 @@ public class Variavel {
 
         String vr_string = "okasd";
         Character vr_character = 'f';
-
+    }
+    
+    public static void tamanhoDeBytes(){
         System.out.println("Char: " + Character.BYTES + " Byte(s)");
         System.out.println("Boolean: true / false");
         System.out.println("Int: " + Integer.BYTES + " Byte(s)");
         System.out.println("Double: " + Double.BYTES + " Byte(s)");
+        
         String nome = "MARCELLO";
-        System.out.println("Palavra: MARCELLO " + nome.length() * 2 + " Byte(s)");
-
+        int qtdDeLetraNome = nome.length();
+        int bytesStringNome = qtdDeLetraNome * 2;
+        System.out.print("Palavra: " + nome);
+        System.out.print(" Qtd de Letras: " +  qtdDeLetraNome);
+        System.out.print(" TAM. DO Bytes: " + bytesStringNome);
+        System.out.println();
     }
-
-    // Consumo de memória da Minha Aplicação
-    // System.out.println("MiNHA Aplicação Consome de memória: ");
-    // Runtime runtime = Runtime.getRuntime();
-    // System.out.println("Memória Livre: " + runtime.freeMemory());
-    // System.out.println("max Memória: " + runtime.maxMemory());
-    // Long memoriaConsumida = runtime.maxMemory() - runtime.freeMemory();
-    // System.out.println("Memória Consumida: " + memoriaConsumida);
-
-    // System.out.println("Nº de processo: " + runtime.availableProcessors());
-
-    // System.out.println("Char:" + instanceof char);
+    
+    public static void variavelMaxMin(){
+        System.out.println("\n\nTipos de dados em Java:");
+        
+        System.out.println("Menor Byte: " + Byte.MIN_VALUE);
+        System.out.println("Maior Byte: " + Byte.MAX_VALUE);
+        System.out.println();
+        System.out.println("Menor Short Int: " + Short.MIN_VALUE);
+        System.out.println("Maior Short Int: " + Short.MAX_VALUE);
+        System.out.println();
+        System.out.println("Menor Int: " + Integer.MIN_VALUE);
+        System.out.println("Maior Int: " + Integer.MAX_VALUE);
+        System.out.println();
+        System.out.println("Menor Long: " + Long.MIN_VALUE);
+        System.out.println("Maior Long:" + Long.MAX_VALUE);
+        System.out.println();
+        System.out.println("Menor Float: " + Float.MIN_VALUE);
+        System.out.println("Maior Float: " + Float.MAX_VALUE);
+        System.out.println();
+        System.out.println("Menor Double: " + Double.MIN_VALUE);
+        System.out.println("Maior Double: " + Double.MAX_VALUE);
+    }
+    
+    public static void main(String[] args) {
+        tamanhoDeBytes();
+        variavelMaxMin();
+    }
 }
