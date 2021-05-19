@@ -2,7 +2,13 @@ package basico;
 
 public class Variavel {
     
+    // constantes
+    private final int EXIT = 0;
+    
     public void tiposPrimitivos(){
+        
+        // Constantes
+        final double PI = 3.14159265359;
         
         // Inteiros
         int v_int = 12000000;
