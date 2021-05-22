@@ -1,4 +1,4 @@
-package poo.exerciciofinal;
+package poo.relacionamento.exercicio;
 
 public interface LutadorInterface {
     public abstract void apresentar();

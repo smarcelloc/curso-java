@@ -1,4 +1,4 @@
-package poo.exerciciofinal;
+package poo.relacionamento.exercicio;
 
 import java.util.Random;
 

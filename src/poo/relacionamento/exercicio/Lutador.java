@@ -1,4 +1,4 @@
-package poo.exerciciofinal;
+package poo.relacionamento.exercicio;
 
 public class Lutador implements LutadorInterface{
 
