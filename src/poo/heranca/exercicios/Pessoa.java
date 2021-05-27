@@ -1,4 +1,4 @@
-package poo.relacionamento.heranca.exercicios;
+package poo.heranca.exercicios;
 
 public abstract class Pessoa {
     private String nome;

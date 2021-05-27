@@ -1,4 +1,4 @@
-package poo.relacionamento.heranca.exercicios;
+package poo.heranca.exercicios;
 
 public class Main {
     public static void main(String[] args) {

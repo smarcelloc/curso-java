@@ -1,4 +1,4 @@
-package poo.relacionamento.heranca;
+package poo.heranca;
 // SUPERCLASSE, GENERALIZAÇÃO, CLASSE-MÃE
 public class Pessoa {
     private String nome;

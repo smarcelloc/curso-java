@@ -1,4 +1,4 @@
-package poo.relacionamento.heranca;
+package poo.heranca;
 // SUBCLASSE, ESPECIALIZAÇÃO, CLASSE-FILHA
 public class Aluno extends Pessoa {
     private String ra;
