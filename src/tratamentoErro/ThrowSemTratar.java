@@ -1,6 +1,6 @@
 package tratamentoErro;
 
-public class C_Throw {
+public class ThrowSemTratar {
 
     public static void checkAge(int age) {
         if (age < 18) {
